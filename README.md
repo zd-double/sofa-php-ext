@@ -1,2 +1,1 @@
-test
-# sofa-php-ext
+sofa_pbrpc php extension

@@ -1,0 +1,42 @@
+10
+
+dir
+0
+https://svn.baidu.com/ps/opensource/trunk/sofa-pbrpc-hhvm-ext/genphp
+https://svn.baidu.com/ps/opensource
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c783c870-ce43-48fe-aa8e-71dd8d144648
+
+protoc-php.php
+file
+
+
+
+add
+
+ProtobufCompiler
+dir
+
+
+
+add
+

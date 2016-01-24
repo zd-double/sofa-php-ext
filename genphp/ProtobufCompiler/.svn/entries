@@ -1,0 +1,112 @@
+10
+
+dir
+0
+https://svn.baidu.com/ps/opensource/trunk/sofa-pbrpc-hhvm-ext/genphp/ProtobufCompiler
+https://svn.baidu.com/ps/opensource
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c783c870-ce43-48fe-aa8e-71dd8d144648
+
+ProtobufParser.php
+file
+
+
+
+add
+
+FileDescriptor.php
+file
+
+
+
+add
+
+MethodDescriptor.php
+file
+
+
+
+add
+
+ServiceDescriptor.php
+file
+
+
+
+add
+
+DescriptorInterface.php
+file
+
+
+
+add
+
+EnumValueDescriptor.php
+file
+
+
+
+add
+
+FieldDescriptor.php
+file
+
+
+
+add
+
+EnumDescriptor.php
+file
+
+
+
+add
+
+FieldLabel.php
+file
+
+
+
+add
+
+CommentStringBuffer.php
+file
+
+
+
+add
+
+MessageDescriptor.php
+file
+
+
+
+add
+
+CodeStringBuffer.php
+file
+
+
+
+add
+

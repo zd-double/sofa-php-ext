@@ -824,7 +824,11 @@ int PhpRpcServiceStubImpl::CreateMessage(zval* message,
     }
     message_proto->set_name(message_type);
     zval* message_descriptor = GetFieldDescriptors(message);
-
+    if (!message_descriptor)
+    {
+        SLOG(ERROR, "create message %s proto failed for message_descriptor is null", message_type.c_str());
+        return -1;
+    }
     int ret = CreateMessageDescriptor(message, message_descriptor, message_proto, file_proto);
     if (ret)
     {

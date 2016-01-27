@@ -33,7 +33,7 @@ class MethodDescriptor implements DescriptorInterface
         $this->_file = $file;
         $this->_input = $input;
         $this->_output = $output;
-        $this->_containing = $containing;
+        //$this->_containing = $containing;
 
         if (is_null($service)) {
             throw new Exception(

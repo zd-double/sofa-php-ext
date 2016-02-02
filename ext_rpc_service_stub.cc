@@ -7,7 +7,7 @@
  
  /**
  * @file ext_rpc_service_stub.c
- * @author spider(spider@baidu.com)
+ * @author zhangdi(zhangdi05@baidu.com)
  * @date 2016/01/06 10:28:23
  * @version $Revision$ 
  * @brief 
@@ -126,6 +126,7 @@ PHP_METHOD(PhpRpcServiceStub, InitService)
                               &service_name,
                               &service_len) == FAILURE)
     {
+        SLOG(ERROR, "create stub failed for bad parameters");
         return;
     }
     std::string server_addr(address_str, address_str_len);

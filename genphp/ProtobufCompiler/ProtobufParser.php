@@ -505,7 +505,7 @@ class ProtobufParser
         $pathInfo = pathinfo($sourceFilename);
 
         //return 'pb_proto_' . $pathInfo['filename'] . '.php';
-        return $pathInfo['filename'] . '.php';
+        return $pathInfo['filename'] . '.pb.php';
     }
 
     /**

@@ -7,7 +7,7 @@
  
  /**
  * @file ext_rpc_service_stub_impl.h
- * @author spider(spider@baidu.com)
+ * @author zhangdi(zhangdi05@baidu.com)
  * @date 2016/01/06 10:28:29
  * @version $Revision$ 
  * @brief 

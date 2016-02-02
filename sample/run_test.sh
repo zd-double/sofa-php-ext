@@ -1,1 +1,1 @@
-php -c ../thirdparty/php/etc/php.ini vui.php
+php -c ./php.ini demo.php

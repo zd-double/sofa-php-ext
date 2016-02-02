@@ -1,6 +1,6 @@
 <?php
 /**
- * Auto generated from auto.proto at 2016-01-18 09:12:35
+ * Auto generated from test.proto at 2016-02-02 11:04:43
  *
  * sofa.pbrpc.vui package
  */
@@ -4092,8 +4092,12 @@ class AutoAdjustService extends PhpRpcServiceStub
 {
     private function Registerauto_adjust()
     {
+
         $query_url_features_t_instance = New query_url_features_t();
+
+
         $click_features_t_instance = New click_features_t();
+
         $click_features_t_instance->append_query_url_feas($query_url_features_t_instance);
         $click_features_t_instance->append_more_query_url_feas($query_url_features_t_instance);
         $click_features_t_instance->append_time_query_url_feas($query_url_features_t_instance);
@@ -4104,9 +4108,12 @@ class AutoAdjustService extends PhpRpcServiceStub
 
         $offset_t_instance = New offset_t();
 
+
         $SortInfo_instance = New SortInfo();
 
+
         $SortFactor_instance = New SortFactor();
+
 
         $NodeInfo_instance = New NodeInfo();
 
@@ -4116,6 +4123,7 @@ class AutoAdjustService extends PhpRpcServiceStub
 
         $uap_result_item_t_instance = New uap_result_item_t();
 
+
         $Info_instance = New Info();
 
         $Info_instance->set_queryInfo($QueryInfo_instance);
@@ -4123,14 +4131,18 @@ class AutoAdjustService extends PhpRpcServiceStub
         $Info_instance->append_uapInfo($uap_result_item_t_instance);
 
         $OutNodeInfo_instance = New OutNodeInfo();
+
+
         $OutInfo_instance = New OutInfo();
+
         $OutInfo_instance->append_resultInfo($OutNodeInfo_instance);
+
         $this->RegisterMethod("auto_adjust", $Info_instance, $OutInfo_instance);
     }
 
-    function __construct($server_addr)
+    function __construct($server_address)
     {
-        $this->InitService($server_addr, "sofa.pbrpc.vui", "AutoAdjustService");
+        $this->InitService($server_address, "sofa.pbrpc.vui", "AutoAdjustService");
         $this->Registerauto_adjust();
         $this->InitMethods();
     }
@@ -4149,4 +4161,5 @@ class AutoAdjustService extends PhpRpcServiceStub
     {
         return $this->GetErrorText();
     }
+
 }

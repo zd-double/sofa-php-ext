@@ -35,7 +35,7 @@ message OutNodeInfo {
 }
 
 message OutInfo {
-    optional string debugInfo = 1;
+    optional string debugInfo = 1;   
     optional int32 query_search = 2;
     repeated OutNodeInfo resultInfo = 3;
 }
@@ -95,7 +95,7 @@ message NodeInfo {
     optional uint32 urlSignHigh32 = 5;
     optional uint32 urlSignLow32 = 6;
     optional uint32 uniUrlSignHigh32 = 7;
-    optional uint32 uniUrlSignLow32 = 8;
+    optional uint32 uniUrlSignLow32 = 8; 
     optional string gSampleLog = 9;
 
     optional SortInfo sortInfo = 10;
@@ -122,3 +122,8 @@ message Info {
     repeated NodeInfo resultInfo = 2;
     repeated uap_result_item_t uapInfo = 3;
 }
+
+service AutoAdjustService {
+    rpc auto_adjust(Info) returns (OutInfo);
+}
+

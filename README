@@ -23,7 +23,7 @@ Installation
 
     Run ./configure to generate 'Makefile'
 
-    make -j10 && make install
+    make clean && make -j10 && make install
     
     you can get extension in ./modules
 
